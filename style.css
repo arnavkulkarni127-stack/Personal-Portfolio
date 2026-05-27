@@ -135,3 +135,37 @@ color: #ffffff;
     line-height: 1.5;
     color: rgb(208, 231, 199);
 }
+.light-mode {
+  background-color: #81cae9;
+}
+
+.light-mode nav a,
+.light-mode nav h2 {
+  color: #0f252a;
+}
+
+.light-mode #hero h1 {
+  color: #0f252a;
+}
+
+.light-mode #hero p {
+  color: #0f252a;
+}
+
+.light-mode #hero button {
+  color: #0f252a;
+  border: 1px solid #0f252a;
+}
+
+.light-mode #about h2,
+.light-mode #skills h2,
+.light-mode #projects h2,
+.light-mode #contact h2,
+.light-mode #Learning h2 {
+  color: #0f252a;
+}
+
+.light-mode .secp,
+.light-mode li {
+  color: #0f252a;
+}
