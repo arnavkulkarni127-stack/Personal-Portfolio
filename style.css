@@ -30,6 +30,15 @@ color: #ffffff;
     align-items: center;
     display:flex;
     padding: 0 60px;
+    gap: 300px;
+}
+#hero-detail{
+    line-height: 2.1;
+    font-size: x-large;
+}
+#hero-detail h3 b{
+    color: #d5d0f6;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 #hero h1{
     font-size: 50px;
@@ -54,8 +63,75 @@ color: #ffffff;
 }
 #hero button:hover {
   background-color: cyan;
-  color: #0f252a !important;
+  color: rgb(0, 0, 0) !important;
 }
-#hero button:hover * {
-  color: #0f252a !important;
+#about 
+{
+    border-bottom:2px solid #27779a;
+    box-shadow: 0 0 12px rgba(7, 114, 157, 0.5);
+    
+    max-width: 1000px;
+    padding: 30px 60px;
+    
+}
+#skills
+{
+    max-width: 1000px;
+    padding: 30px 60px;
+     border-bottom:2px solid #27779a;
+    box-shadow: 0 0 12px rgba(7, 114, 157, 0.5);
+}
+#projects
+{
+    max-width: 1000px;
+    padding: 30px 60px;
+     border-bottom:2px solid #27779a;
+    box-shadow: 0 0 12px rgba(7, 114, 157, 0.5);
+}
+#Contact
+{
+    max-width: 1000px;
+    padding: 30px 60px;
+    border-bottom:2px solid #27779a;
+    box-shadow: 0 0 12px rgba(7, 114, 157, 0.5);
+}
+#Learning 
+{
+    max-width: 1000px;
+    padding: 30px 60px;
+     border-bottom:2px solid #27779a;
+    box-shadow: 0 0 12px rgba(7, 114, 157, 0.5);
+}
+#about h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+    color: rgb(223, 223, 234);
+}
+#skills h2{
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+     color: rgb(223, 223, 234);
+
+}
+#projects h2 {
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+     color: rgb(223, 223, 234);
+
+}
+#contact h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+     color: rgb(223, 223, 234);
+}
+#Learning h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+     color: rgb(223, 223, 234);
+}
+.secp {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    line-height: 1.5;
+    color: rgb(208, 231, 199);
 }
